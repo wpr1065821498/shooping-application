@@ -9,5 +9,5 @@ zuul:
   routes: #路由的配置
       user.serviceId: yonghe-plat
 
-      user.path: /employee/**
+      user.path: /user/**
 
