@@ -10,4 +10,7 @@ zuul:
       user.serviceId: yonghe-plat
 
       user.path: /user/**
+      product.serviceId: yonghe-product
+
+      product.path: /product/**
 
