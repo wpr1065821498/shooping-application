@@ -2,15 +2,13 @@ server:
   port: 9527
 spring:
   application:
-    name: zuul-gateway
+    name: zuul-gateway-test
 zuul:
   ignored-services: "*"
   prefix: "/services" #前缀
   routes: #路由的配置
       user.serviceId: yonghe-plat
-
       user.path: /user/**
       product.serviceId: yonghe-product
-
       product.path: /product/**
 
